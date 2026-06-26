@@ -9,13 +9,15 @@ Each image is 512 x 512 size.  And each pixel has x and y value relative to its 
 ## The String
 
 Each string consist of lowercase alphabet and numbers. Each character repersents a number or an operator.
+All operations are stack-based.
+To prevent exceptions, when stack needs to pop but there's not enough values to pop, It returns last successfully popped value.
+Dividing by 0 will always make result 0.
 
 RPN notation is used.
 - Unary operator is applied on top value of current stack.
 - Binary operator pops 2 numbers, and apply the operator, and push result.
 
-To prevent exceptions, when stack needs to pop but there's not enough values to pop, It returns last successfully popped value.
-Dividing by 0 will always make result 0.
+
 
 ## How to use
 
