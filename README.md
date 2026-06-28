@@ -22,3 +22,54 @@ RPN notation is used.
 ## How to use
 
 Compile main.c and put /images directory and compiled program in same directory.  After running the program, you will get 1000 randomly generated images.
+
+## What each symbol represents
+
+Numbers
+
+|This symbol|repersents...|
+|---|---|
+|0|0|
+|1|1|
+|2|2|
+|3|3|
+|4|4|
+|5|5|
+|6|6|
+|7|7|
+|8|8|
+|v|-1|
+|f|-2|
+|g|-3|
+|h|-4|
+|j|-5|
+|k|-6|
+|l|-7|
+|9|-8|
+
+Binary operatiors
+
+|This symbol|repersents...|
+|---|---|
+|p|`+`|
+|z|`-`|
+|m|`*`|
+|d|`/`|
+|w|`%`|
+|a|`&`|
+|o|`\`|
+|e|`^`|
+
+Unary operators
+
+|This symbol|repersents...|
+|---|---|
+|q|x^2|
+|r|sqrt(x)|
+|u|(x)^3|
+|b|cbrt(x)|
+|n|-x|
+|i|1/x|
+|s|sin(x)|
+|c|cos(x)|
+|t|tan(x)|
